@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sql-nameguard"
+version = "0.1.0"
+description = "A tool for evaluating SQL aliases for CTEs, tables, and columns using semantic analysis and LLM suggestions"
+authors = ["Rayan Hamza <rayan.hamza@example.com>"]
+readme = "README.md"
+packages = [{include = "sql_nameguard", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.0"
+sqlglot = "^19.0.0"
+sentence-transformers = "^2.2.0"
+litellm = "^1.0.0"
+python-dotenv = "^1.0.0"
+transformers = "^4.30.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-dotenv = "^0.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
