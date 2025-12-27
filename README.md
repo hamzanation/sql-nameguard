@@ -30,10 +30,6 @@ sql-cte-suggestion-human/
 │       ├── llm_suggest.py       # LLM integration for suggestions
 │       ├── parse_json.py        # JSON response parsing
 │       └── parse_sql.py         # SQL parsing utilities
-├── tests/
-│   ├── test_analyze.py          # Unit tests for SQLAnalyzer
-│   └── test_llm_suggest.py      # Integration tests for LLMSuggester
-├── experiment.ipynb             # Prototype experimentation notebook
 ├── pyproject.toml               # Poetry project configuration
 ├── requirements.txt             # Python dependencies
 ├── .env                         # Environment variables (API keys)
@@ -394,10 +390,6 @@ If you use SQL NameGuard in your research, please cite:
   url={https://github.com/yourusername/sql-cte-suggestion-human}
 }
 ```
-
-## Contact
-
-For questions or suggestions, please open an issue or contact [your-email@example.com].
 
 ## Acknowledgments
 
